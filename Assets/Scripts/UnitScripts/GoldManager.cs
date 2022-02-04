@@ -9,6 +9,7 @@ public class GoldManager : MonoBehaviour
     [SerializeField] float goldIntervalInSeconds = 1;
 
     private bool canIncrementGold = true;
+    private Dialog dialog;
    
     public int currentGold = 100;
     public int archerCost = 35;
@@ -17,10 +18,15 @@ public class GoldManager : MonoBehaviour
     public int knightCost = 25;
     public int spearCost = 40;
     public TextMeshProUGUI currentGoldText;
+
+    private void Start()
+    {
+        dialog = GameObject.Find("DialogManager").GetComponent<Dialog>();
+    }
     private void Update()
     {
         currentGoldText.text = "Gold: " + currentGold;
-        if (!canIncrementGold) return;
+        if (!canIncrementGold || dialog.isDialogPresent) return;
         StartCoroutine(GoldIncrementTimerCoroutine(goldIntervalInSeconds));
         GoldIncrement();
     }

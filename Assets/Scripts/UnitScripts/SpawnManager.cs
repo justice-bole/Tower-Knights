@@ -9,6 +9,7 @@ public class SpawnManager : MonoBehaviour
     private bool canSpawnEnemy = true;
     private GoldManager goldManager;
     private AudioSource towerSfxManager;
+    private Dialog dialog;
     private Vector2 enemySpawnPosition = new Vector2(6.65f, -4.47f);
     private Vector2 playerSpawnPosition = new Vector2(-6.65f, -4.47f);
     private Vector2 spearSpawnPosition = new Vector2(-4.7f, -1.6f);
@@ -36,6 +37,7 @@ public class SpawnManager : MonoBehaviour
     private void Awake()
     {
         goldManager = GameObject.Find("GoldManager").GetComponent<GoldManager>();
+        dialog = GameObject.Find("DialogManager").GetComponent<Dialog>();
         towerSfxManager = gameObject.AddComponent<AudioSource>();
         towerSfxManager.volume = 0.15f;
     }
@@ -44,7 +46,7 @@ public class SpawnManager : MonoBehaviour
 
     public void SpawnUnit(GameObject unitType, int goldCost, bool canSpawn, Vector2 spawnPosition, Quaternion rotation, AudioClip successSoundFX, AudioClip failSoundFX)
     {
-        if(unitType != null && canSpawn && goldManager.currentGold >= goldCost)
+        if(unitType != null && canSpawn && goldManager.currentGold >= goldCost && !dialog.isDialogPresent)
         {
             PlayTowerSFX(successSoundFX);
             GameObject playerUnit = Instantiate(unitType, spawnPosition, rotation);
@@ -101,7 +103,7 @@ public class SpawnManager : MonoBehaviour
 
     public void SpawnEnemyUnit()
     {
-        if (enemies != null && canSpawnEnemy)
+        if (enemies != null && canSpawnEnemy && !dialog.isDialogPresent)
         {
             GameObject enemyUnit = Instantiate(enemies[Random.Range(0, enemies.Length)], enemySpawnPosition, enemyRotation);
             enemyUnit.gameObject.tag = "Enemy";
@@ -118,7 +120,7 @@ public class SpawnManager : MonoBehaviour
         if (!canSpawnPlayer && respawnTimerPlayer > 0)
         {
             respawnTimerPlayer -= Time.deltaTime;
-            playerButtonTxt.text = respawnTimerPlayer.ToString("f0");
+            playerButtonTxt.text = "Hire Cooldown: " + respawnTimerPlayer.ToString("f0");
         }
         else
         {
@@ -128,7 +130,7 @@ public class SpawnManager : MonoBehaviour
         if (!canSpawnEnemy && respawnTimerEnemy > 0)
         {
             respawnTimerEnemy -= Time.deltaTime;
-            enemyButtonTxt.text = respawnTimerEnemy.ToString("f0");
+            enemyButtonTxt.text = "Hire Cooldown: " + respawnTimerEnemy.ToString("f0");
         }
         else
         {

@@ -57,13 +57,13 @@ MonoBehaviour:
   canBeDamaged: 1
   health: 4
   arrowShotSfx: {fileID: 8300000, guid: d573072234b5bd94fbc7b704b5cac0d0, type: 3}
-  ballistaShotSfx: {fileID: 8300000, guid: 8aba7fa9369295b49a38801782590fd0, type: 3}
   coinSfx: {fileID: 8300000, guid: 9a109ce5b46461e4daaeec6a46885426, type: 3}
   golemDeathSfx: {fileID: 8300000, guid: a22cc1120b02ec1488ac3ae32ea55a62, type: 3}
   swordHitSfx: {fileID: 8300000, guid: f8af129daf036594481917f5dc0da321, type: 3}
   goldParticle: {fileID: 6312614573689450498, guid: 2942cb12ddb35f944af9bc20a1038dcd, type: 3}
   bloodParticle: {fileID: 8611642584651675708, guid: 6ba3ce3762fc2af4fb1149c439964dd5, type: 3}
   UnitArrow: {fileID: 0}
+  healthBar: {fileID: 5904913705888618185, guid: 6e80f4db74b8e2f48bfa6bc33536ad52, type: 3}
 --- !u!212 &6940083767230514974
 SpriteRenderer:
   m_ObjectHideFlags: 0

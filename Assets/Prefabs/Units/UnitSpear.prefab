@@ -97,8 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88949371bdded340b62951811f3d236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arrowDamage: 12
   arrowMoveSpeed: 550
-  arrowDamage: 6
 --- !u!50 &70965865236822071
 Rigidbody2D:
   serializedVersion: 4

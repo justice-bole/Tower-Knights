@@ -39,7 +39,6 @@ public class UnitBehavior : MonoBehaviour
     public ParticleSystem bloodParticle;
     public GameObject UnitArrow;
 
-
     private void Awake()
     {
         goldManager = GameObject.Find("GoldManager").GetComponent<GoldManager>();
@@ -94,7 +93,6 @@ public class UnitBehavior : MonoBehaviour
         {
             print("Could not apply force to object: " + gameObject.name);
         }
-
     }
 
     protected virtual void ApplyUnitColor()
@@ -125,8 +123,7 @@ public class UnitBehavior : MonoBehaviour
             sFXManager.PlaySFX(golemDeathSfx);
         }
     }
-
-        
+    
     protected virtual void HealthChecker()
     {
         if (health > 0) return;
