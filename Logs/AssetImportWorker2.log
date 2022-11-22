@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker2
 -projectPath
 C:/Users/justi/OneDrive/Documents/Coding/Unity Projects/Tower-Knights
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker2.log
 -srvPort
 64225
 Successfully changed project path to: C:/Users/justi/OneDrive/Documents/Coding/Unity Projects/Tower-Knights
@@ -47,7 +47,7 @@ C:/Users/justi/OneDrive/Documents/Coding/Unity Projects/Tower-Knights
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 38.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -63,76 +63,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004470 seconds.
+Registered in 0.004735 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.547 seconds
+- Completed reload, in  0.550 seconds
 Domain Reload Profiling:
-	ReloadAssembly (548ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (551ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (388ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (387ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (105ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (211ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
+				RefreshPlugins (41ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004443 seconds.
+Registered in 0.004474 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 34.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.859 seconds
+- Completed reload, in  0.862 seconds
 Domain Reload Profiling:
-	ReloadAssembly (859ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (863ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (644ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (643ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (164ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (317ms)
+			SetupLoadedEditorAssemblies (320ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (183ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (188ms)
 				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -142,12 +142,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2351 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 29 unused Assets / (30.2 KB). Loaded Objects now: 2827.
 Memory consumption went from 181.4 MB to 181.4 MB.
-Total: 3.223500 ms (FindLiveObjects: 0.256900 ms CreateObjectMapping: 0.063300 ms MarkObjects: 2.868900 ms  DeleteObjects: 0.033100 ms)
+Total: 3.525200 ms (FindLiveObjects: 0.362100 ms CreateObjectMapping: 0.106100 ms MarkObjects: 3.016400 ms  DeleteObjects: 0.039000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,64 +161,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1020855.967524 seconds.
-  path: Assets/Sprites/Tower.png
-  artifactKey: Guid(14b56dff35fcc084c9d1341b12e5f276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tower.png using Guid(14b56dff35fcc084c9d1341b12e5f276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cb4d7a2ea381ee4d2f7d17c3768d6a') in 0.142234 seconds 
+  Time since last request: 1020855.973325 seconds.
+  path: Assets/Sprites/UIButtonBackground.png
+  artifactKey: Guid(e839e05fd8e1e574a9f21202d1555d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UIButtonBackground.png using Guid(e839e05fd8e1e574a9f21202d1555d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141fa14695592407da16351cd03c002') in 0.135924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/ArcherKnight.png
+  artifactKey: Guid(71d09f54ac83de747800e4acd7e7e70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ArcherKnight.png using Guid(71d09f54ac83de747800e4acd7e7e70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c4ce7a51a378b7c4c4d7f65c478451') in 0.102535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Background/TowerBackgroundLayer4.png
+  artifactKey: Guid(38ec57d9926fb754ebd851261c4c4d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Background/TowerBackgroundLayer4.png using Guid(38ec57d9926fb754ebd851261c4c4d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35203ce7978795cb13b2f83cc0c4ba9a') in 0.112029 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/TowerDamagedStage3.png
-  artifactKey: Guid(98a6f50f168a5b94d937bdcc8ee943d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TowerDamagedStage3.png using Guid(98a6f50f168a5b94d937bdcc8ee943d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09eb45f56aa2b48f6e185a9ff8de2de') in 0.047392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sprites/GolemKnight.png
-  artifactKey: Guid(01799c7a46219e34693e0a764664ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/GolemKnight.png using Guid(01799c7a46219e34693e0a764664ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb80870bbb4ad232903af14f1770bd27') in 0.038151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/PlayerTower.png
-  artifactKey: Guid(f0891d287326e7d45a01b60405ac0406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlayerTower.png using Guid(f0891d287326e7d45a01b60405ac0406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f42c2c5fe2d5410a11fa053337578b') in 0.021845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sprites/Coin.png
-  artifactKey: Guid(0788a2bccaca1a9439d234f10ac3c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Coin.png using Guid(0788a2bccaca1a9439d234f10ac3c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f448ebfdc017b0dbdff6cfc9a2e606b5') in 0.056638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Telescope.png
-  artifactKey: Guid(7c1d64305af32844882fe1dc89a4149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Telescope.png using Guid(7c1d64305af32844882fe1dc89a4149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9738176f240aef9843ec9963980d7d13') in 0.020585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/CalvalryKnight.png
-  artifactKey: Guid(ac2533d77cf6e124585938af85a8450f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/CalvalryKnight.png using Guid(ac2533d77cf6e124585938af85a8450f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1229b9c6dcd3297cf5695ee12acf7dd') in 0.018008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/TowerCrystal.png
-  artifactKey: Guid(73c7f3c6d97da1443977154040b8076a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TowerCrystal.png using Guid(73c7f3c6d97da1443977154040b8076a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd379454dab583fa0a1cb9e647bc4c28b') in 0.017821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Knight.png
-  artifactKey: Guid(bf766f71382fa9d4fac791d09554dd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Knight.png using Guid(bf766f71382fa9d4fac791d09554dd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd06b106f83f0ccce1ec7bcbc0f2113') in 0.017994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/BallistaSpear.png
-  artifactKey: Guid(297ba5ceaa13d1f438cac43b46c2951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BallistaSpear.png using Guid(297ba5ceaa13d1f438cac43b46c2951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f08fcda63bcb5740cc5a149cd3881b6') in 0.016619 seconds 
+  path: Assets/Sprites/Background/TowerBackgroundLayer3.png
+  artifactKey: Guid(221049406322c044fb58ca36f8b60d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Background/TowerBackgroundLayer3.png using Guid(221049406322c044fb58ca36f8b60d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd587887d457949678172489c145f1bd4') in 0.063748 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
